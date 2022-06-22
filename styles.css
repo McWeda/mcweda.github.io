@@ -236,3 +236,51 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+.painting-card-wide.mdl-card,
+.electrical-card-wide.mdl-card,
+.tiling-card-wide.mdl-card,
+.carpentry-card-wide.mdl-card,
+.plumbing-card-wide.mdl-card {
+  background-color: #fcffff;
+  width: 512px;
+  margin-bottom: 3.0em;
+}
+.plumbing-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('assets/images/bathroom-gf90ee15fe_1920.jpg') center / cover;
+}
+
+.plumbing-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.painting-card-wide  > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('assets/images/painting-unsplash.jpg') center / cover;
+}
+
+.electrical-card-wide  > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('assets/images/electrical-unsplash.jpg') center / cover;
+}
+
+.tiling-card-wide  > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('assets/images/tiling-unsplash.jpg') center / cover;
+}
+
+.carpentry-card-wide  > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('assets/images/carpentry-unsplash.jpg') center / cover;
+}
+
+.service-name {
+  color: #fff;
+  font-weight:400;
+}
